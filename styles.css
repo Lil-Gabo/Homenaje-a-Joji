@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+
+}    
+h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-image: url(imagenes/descarga.jpg);
+}
+a{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #1c1b1b;
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.container{
+    width: 100%;
+
+}  
+  
+.cuadro{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    color: blueviolet;
+}
+.cuadroimg{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.separacion{
+    background-color: rgb(168, 21, 99);
+    color: beige;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    padding: 30px;
+    display: block;
+}
+.discos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 4px 4px 10px white;
+    padding: 20px;
+}
+.albumes{
+    width: 500px;
+     height: 400px;
+    box-shadow: 10px 10px 10px white;
+    display: block;
+    justify-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    
+}
+.albumes:hover{
+    box-shadow: 4px 4px 10px rgb(168, 21, 99);
+    
+}
+.albumes:active{
+    transform: scale(0.97);
+    box-shadow: 4px 4px 10px rgb(21, 28, 168);
+}
+.lista{
+    position: absolute;
+    visibility: hidden;
+
+}
+.albumes:hover .lista{
+    visibility: visible;    
+    
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 blue;
+
+
+
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 blue;
+    padding: 10px;
+    margin: 100px;
+}
+.fotos img{
+    width: 400px;
+     height: 500px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer img{
+    width: 200px;
+     height: 200px;
+}
